@@ -1,0 +1,102 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="WebScraping" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1858,849" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="23">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Flowchart sap:VirtualizedContainerService.HintSize="634,637" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+        <av:Size x:Key="ShapeSize">60,75</av:Size>
+        <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,107.5 290,107.5 290,144</av:PointCollection>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Flowchart.StartNode>
+      <x:Reference>__ReferenceID0</x:Reference>
+    </Flowchart.StartNode>
+    <FlowStep x:Name="__ReferenceID0">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">190,144</av:Point>
+          <av:Size x:Key="ShapeSize">200,52</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Gold Prices - Indian Rupees (INR) - January 2007" sap:VirtualizedContainerService.HintSize="434,396" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="af65ba15-1f14-47a6-928e-e87f68e858b6" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,105" sap2010:WorkflowViewState.IdRef="Sequence_1">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-1928, -8, 1936, 1096" FilePath="C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUbSURBVFhHtZYNTJVVGMcPGn5kpokfZUn3XghBBT9BiyCERZJAWCHghpUFZJZLp9FWW7hmpM5ss80o1mTi3NAl4nRzLddarmVzuShrM81cLov8iEq+77//ued5ed9734sS6m97duH9eP7/85xznveo/oLsqJVIvdeP++8B5t0NJN8JzJkAzB4HzBgDTL8DSBoFTLsdmDy0SV67MSBnbB7So3uQGo2AgbkTgZS7jIFZY4GZUcZAojYwEpgywo+4oe/I6wMHQAQWjZ+OjOguPOgBK0ADk0IMsAJOA1O1gdtYheE0EbnCyhNI2B9QOMyL/DHHkTOpB5mxfmT6epDugzEgFdBTkKKnYLxMgRgITEGgAkDCrXoq/Igd4odvsB+eiHPwqSyRCQ+KlQeL1VkU0nQgBgE5FNAG0ry2gbnaACuQTANzrAqMdk4BED8cuG8I4IsAPMxlog1e9bDIBUPBcYzTtrjECxz5/lrgrTJgWRqQnwBUZAJNHwGdnawu+ewg8GyeMZk9jfcXAe9vBJYuAAWNuPXrUVcQq+aJrA2WqZEU/DtIfMkw4NQxIzIQLl/k1NGUXQFjJEalimwwLH99kIFPaiTTddDMAeipsKtwWuTc0EBzr/iGfJOguwvYx3JufpLT8ChQUwF8uRto+8fc13R3A0c+5f21ZirKCoD1a4ALLeb+trftCvhUJ+JVlEjaUDSxV7yUC+nSefOypqcHOH4I2FIMlHA0+pnqQrlJ6rbYAsXzgY93AFf+lZtEv58727kOKkTWhkmX9xrY9Li8GYbLvwNVFKldLRfIoT2mP/zYLBfC8OFm26RP7RBZG27Bmb0GnmODuXBO3gzD7nXAYY7S4uwpVi1b/gmD3i2LuYMsA14VaFBBACqCa6Cl18SqqUDrn5LBQUcb8DxH+/O3coH4/ewD/B6cPCEXHOj1sZzrxxYH4lS8yAZDAw29BnRUzuFctkomoXEDUHQL0CU9wKJgHisnC9dCG1u7LFjco34VOTcULQ8yoOONh8yoLfRC1P3hxBGWtsOInPweeCQReICd0sm6l53C1t91IucGRSrGZUBHTblkJF0U3fU6O2IkkMVKpNJMAp95sQho4QK12LPdFrXFdZSKXHgoeMZlYGupZHVw5ju2Wrbl+fwGHG6Siw7qtwULW7+T1USRCg8Fa10GvtorWUPY/wHL/LT8E4KuhmXAjh9Epm+4EEtcBo4dkKwOmj8HFvL0k8yv3c735KKDvy7Zwqb0OraKTN+gRE1wGXhlFtAuna3jCuf3Ta56dsRMroE0fnqn8JnVS4E/fjPPaNY84xy5iRhVIDJXJ+ibYEUlW2ntCvZ6ngHKeBZoqGZXZJ9o5w5prAMWJHF/c0Gu4nrR29EStebfo3owQ40WiatDwXddBnTo7bdvk6lCKHo7HmjgaYkHFqew9etTRyX9teF2zO3TwNFGUQyD/hak8gBjRhwa1ZL+2qBUjaBgu8tAILjo6itNi3Wyt57HMJ4DnaJ2+fXf6ZK+f1Bsp1vcEa9lmTXQxfPC+peChUPDp35ClRokqfsHpyGOQq0uYStyGUU8pj+VYnZBOGF7/p+QtP8PCmVyR1x0iVsGMhjJDN2KQ8VNdHPrrZR0AwNLlI8mvnAZWMiwDISrgFf9wtNvhqS5Pig4mPEqo6NfBrxqO8s+Sl6/cVBYnxu/CRhwToFlwKvO8/cxefzmgHIVySmpQh5Pt8EGdoU97d4skK+SkKkOIkV9TQMDHLVS/wGg1VvOXk7IJgAAAABJRU5ErkJggg==" InformativeScreenshot="03abf67e4914d114e4862486efd4ce6b.png" Selector="&lt;html app='brave.exe' title='Gold Prices - Indian Rupees (INR) - January 2007' /&gt;" />
+        </uix:NApplicationCard.TargetApp>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </uix:NApplicationCard>
+    </FlowStep>
+  </Flowchart>
+</Activity>

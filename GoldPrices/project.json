@@ -1,7 +1,7 @@
 {
   "name": "GoldPrices",
   "description": "Source: https://www.analyticsvidhya.com/blog/2021/02/web-scraping-using-rpa-tool-uipath/",
-  "main": "Main.xaml",
+  "main": "WebScraping.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.17.0-preview]",
     "UiPath.Mail.Activities": "[1.18.2]",
@@ -49,6 +49,12 @@
     {
       "filePath": "Main.xaml",
       "uniqueId": "993753df-4dae-4529-8e09-87d520a82826",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "WebScraping.xaml",
+      "uniqueId": "3700fbec-31ec-416d-8a86-2ac30521fd1b",
       "input": [],
       "output": []
     }
